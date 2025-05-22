@@ -1,8 +1,8 @@
 
 /**
- * Valida se a nota está entre 0 e 10.
- * @param {number|string} nota - A nota a ser validada.
- * @returns {boolean} - True se a nota é válida, false caso contrário.
+ * 
+ * @param {number|string} nota 
+ * @returns {boolean}
  */
 function validarNota(nota) {
     const n = parseFloat(nota);
@@ -10,22 +10,19 @@ function validarNota(nota) {
 }
 
 /**
- * Calcula a média de duas notas.
- * @param {number} nota1 - A primeira nota.
- * @param {number} nota2 - A segunda nota.
- * @returns {number} - A média das duas notas.
+ * 
+ * @param {number} nota1 
+ * @param {number} nota2
+ * @returns {number} 
  */
 function calcularMedia(nota1, nota2) {
     return (parseFloat(nota1) + parseFloat(nota2)) / 2;
 }
 
 /**
- * Determina a situação do aluno com base na média.
- * Média menor que 5: Reprovado
- * Média entre 5 e menor que 7: Recuperação
- * Média 7 ou superior: Aprovado
- * @param {number} media - A média do aluno.
- * @returns {string} - A situação do aluno ("Reprovado", "Recuperação", "Aprovado").
+ * 
+ * @param {number} media 
+ * @returns {string} 
  */
 function determinarSituacao(media) {
     if (media < 5) {
@@ -37,7 +34,7 @@ function determinarSituacao(media) {
     }
 }
 
-// Para compatibilidade com Node.js/Jest (testes) e o navegador
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { validarNota, calcularMedia, determinarSituacao };
 }
