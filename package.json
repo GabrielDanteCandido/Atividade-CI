@@ -1,0 +1,23 @@
+{
+  "name": "atividade-ci",
+  "version": "1.0.0",
+  "description": "Tarefa Pratica - Validador de Notas",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielDanteCandido/Atividade-CI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielDanteCandido/Atividade-CI/issues"
+  },
+  "homepage": "https://github.com/GabrielDanteCandido/Atividade-CI#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
