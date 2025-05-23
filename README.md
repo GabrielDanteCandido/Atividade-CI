@@ -6,7 +6,7 @@ Este projeto consiste no desenvolvimento de uma aplicação web simples para lan
 
 [![Status da CI (GitHub Actions)](https://github.com/GabrielDanteCandido/Atividade-CI/actions/workflows/ci.yml/badge.svg)](https://github.com/GabrielDanteCandido/Atividade-CI/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GabrielDanteCandido_Atividade-CI&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=GabrielDanteCandido_Atividade-CI)
-[![Cobertura de Testes (SonarCloud via Jest)](https://sonarcloud.io/api/project_badges/measure?project=GabrielDanteCandido_Atividade-CI&metric=coverage)](https://sonarcloud.io/summary/overall?id=GabrielDanteCandido_Atividade-CI)
+
 
 ## 🎯 Objetivo do Projeto
 
